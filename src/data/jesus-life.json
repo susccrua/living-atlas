@@ -1,0 +1,25 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "name": "Birth",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.7031,
+                    35.1956
+                ]
+            }
+        },
+        {
+            "name": "Age 12 in the Temple",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.7833,
+                    35.2167
+                ]
+            }
+        }
+    ]
+}

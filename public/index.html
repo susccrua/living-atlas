@@ -1,80 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-    crossorigin="" />
-  <!-- Make sure you put this AFTER Leaflet's CSS -->
-  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-    crossorigin=""></script>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>Living Atlas</title>
 </head>
 
 <body>
-  <div id="mapid" style="width: 705px;  
-    height: 500px">
-  </div>
-  <script>
 
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
-    var mymap = L.map('mapid').setView([45.586111, -95.913889], 13);
-    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(mymap);
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
 
-    var cities = [{ "type": "Feature", "properties": { "name": "Rochester, MN", "show_on_map": true, "popupContent": "Rochester, MN" }, "geometry": { "type": "Point", "coordinates": [-92.4802, 44.0121] } },
-    { "type": "Feature", "properties": { "name": "Worthington, MN", "show_on_map": true, "popupContent": "Worthington, MN" }, "geometry": { "type": "Point", "coordinates": [-95.59604, 43.623255] } },
-    { "type": "Feature", "properties": { "name": "Grand Marais, MN", "show_on_map": true, "popupContent": "Grand Marais, MN" }, "geometry": { "type": "Point", "coordinates": [-90.3343, 47.7504] } },
-    { "type": "Feature", "properties": { "name": "Fargo, ND", "show_on_map": true, "popupContent": "Fargo, ND" }, "geometry": { "type": "Point", "coordinates": [-96.7898, 46.8772] } },
-    { "type": "Feature", "properties": { "name": "Roseau, MN", "show_on_map": true, "popupContent": "Roseau, MN" }, "geometry": { "type": "Point", "coordinates": [-95.7628, 48.8461] } },
-    { "type": "Feature", "properties": { "name": "St.Paul, MN", "show_on_map": true, "popupContent": "St.Paul, MN" }, "geometry": { "type": "Point", "coordinates": [-93.17459, 44.913815] } },
-    { "type": "Feature", "properties": { "name": "Duluth, MN", "show_on_map": true, "popupContent": "Duluth, MN" }, "geometry": { "type": "Point", "coordinates": [-92.1005, 46.7867] } },
-    { "type": "Feature", "properties": { "name": "Bemidji, MN", "show_on_map": true, "popupContent": "Bemidji, MN" }, "geometry": { "type": "Point", "coordinates": [-94.87105, 47.504496] } },
-    { "type": "Feature", "properties": { "name": "Morris, MN", "show_on_map": true, "popupContent": "Morris, MN" }, "geometry": { "type": "Point", "coordinates": [-95.9092, 45.584124] } },
-    { "type": "Feature", "properties": { "name": "St.Cloud, MN", "show_on_map": true, "popupContent": "St.Cloud, MN" }, "geometry": { "type": "Point", "coordinates": [-94.1632, 45.5579] } },
-    { "type": "Feature", "properties": { "name": "Minneapolis, MN", "show_on_map": true, "popupContent": "Minneapolis, MN" }, "geometry": { "type": "Point", "coordinates": [-93.2554, 44.9782] } }];
-
-    function circleConvert(feature, latlng) { // Turns GeoJSON points into circle markers
-      return new L.CircleMarker(latlng, { radius: 5, color: '#FF0000' })
-    }
-
-    function onEachFeature(feature, layer) { // produces popups
-      // does this feature have ea property named popupContent?
-      if (feature.properties && feature.properties.popupContent) {
-        layer.bindPopup(feature.properties.popupContent);
-      }
-    }
-
-    var layerProcessing = {
-      pointToLayer: circleConvert,
-      onEachFeature: onEachFeature
-    }
-
-    var cityLayer = L.geoJSON(cities, layerProcessing).addTo(mymap);
-
-
-
-    var path = [[44.0121, -92.4802], [43.623255, -95.59604], [47.7504, -90.3343], [46.8772, -96.7898], [48.8461, -95.7628], [44.913815, -93.17459], [46.7867, -92.1005], [47.504496, -94.87105], [45.584124, -95.9092], [45.5579, -94.1632], [44.9782, -93.2554], [44.0121, -92.4802]];
-
-    var lineStyle = {
-      "dashArray": [
-        10,
-        20
-      ],
-      "weight": 5,
-      "color": "#0000FF"
-    }
-
-    var fillStyle = {
-      "weight": 5,
-      "color": "#FFFFFF"
-    }
-
-    L.polyline(path, fillStyle).addTo(mymap);
-    L.polyline(path, lineStyle).addTo(mymap);                                                                
-  </script>
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
 </body>
 
 </html>
