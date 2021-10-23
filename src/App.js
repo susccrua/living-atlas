@@ -1,6 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
+import React, { useRef, useEffect, useState } from 'react';
+import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
+
+
+
 function App() {
   return (
     <div className="App">
