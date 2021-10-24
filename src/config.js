@@ -292,7 +292,7 @@ var config = {
         },
         {
             id: '15',
-            alignment: 'right-youtube',
+            alignment: 'left-youtube',
             hidden: false,
             title: "Jesus heals Jairus' Daughter",
             //image: './path/to/image/source.png',
@@ -310,14 +310,14 @@ var config = {
             onChapterExit: []
         },
         {
-            id: '15',
-            alignment: 'right',
+            id: '16',
+            alignment: 'right-youtube',
             hidden: false,
-            title: "",
+            title: "Feeding of the 5000 (Fish and Loaves)",
             //image: './path/to/image/source.png',
-            description: `<p></p><p><b>Dig Deeper:</b><a href=> </a></p>`,
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/yOL9JZXd1M4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>Jesus was once again teaching on the North East side of the Sea of Galilee by Bethsaida. He was followed everywhere because the miracles He did. It was getting close to Passover again (Mark 6:35-44; John 6:6-14)</p><p><b>Dig Deeper:</b><a href=https://www.gotquestions.org/feeding-the-5000.html> More on the Feeding of the 500</a></p>`,
             location: {
-                center: [],
+                center: [35.6306, 32.91],
                 zoom: 15,
                 pitch: 60,
                 bearing: -43.2
@@ -329,14 +329,71 @@ var config = {
             onChapterExit: []
         },
         {
-            id: '15',
-            alignment: 'right',
+            id: '17',
+            alignment: 'left-youtube',
             hidden: false,
-            title: "",
+            title: "Jesus Walks on Water",
             //image: './path/to/image/source.png',
-            description: `<p></p><p><b>Dig Deeper:</b><a href=> </a></p>`,
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/SIW6HVl4qSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p><b>Dig Deeper:</b><a href=https://www.gotquestions.org/walking-on-water.html> What was the meaning of Jesus walking on water?</a></p>`,
             location: {
-                center: [],
+                center: [35.5072, 32.8606],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '18',
+            alignment: 'right-youtube',
+            hidden: false,
+            title: "Feeding of the 4000",
+            //image: './path/to/image/source.png',
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/bMSUByyJpcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>This is the second time Jesus feeds a crowd that came to listen to him. This time we are told that there were about 4,000 people there and like the first time, Jesus uses the 7 loaves of  bread and some fish that disciples had to feed all these people. Here again people there was seven large baskets of leftover bread after the crowd was fed. (Mark 8:1-9)</p><p><b>Dig Deeper:</b><a href=https://www.gotquestions.org/feeding-the-hungry.html> What does the Bible say about feeding the hungry?</a></p>`,
+            location: {
+                center: [35.6306, 32.91],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '19',
+            alignment: 'left-youtube',
+            hidden: false,
+            title: "Jesus fortells his death for the first time",
+            //image: './path/to/image/source.png',
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/Hy20IoNoit4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>Jesus starts to reshape the disciple's expectation of Jesus' mission as a Messiah. He tells them for the first time that he is about to suffer and die by the hands of the religious leaders of Isreal. He also foretells that He will raise again after 3 days.</p><p><b>Dig Deeper:</b><a href=https://www.gotquestions.org/I-go-to-prepare-a-place-for-you.html> What did Jesus mean when He said, “I go to prepare a place for you”?</a></p>`,
+            location: {
+                center: [35.6933, 33.2461],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '20',
+            alignment: 'right-youtube',
+            hidden: false,
+            title: "The Transfiguration",
+            //image: './path/to/image/source.png',
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/Pl-6pTDa1yU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>Jesus is fully man and fully God. Peter, James and John got to see a glimspe of this when Jesus took them up on a mountain and transfigured before them. His face began to shine and his clothes became brilliantly white. Paul, who later became a follower of Jesus and wrote many books of the New Testament,  writes in one of his letters "Though he[Jesus] was by nature God, he did not consider equality with God as a prize to be displayed, but he emptied himself by taking the nature of a servant. When he was born in human likeness, and his appearance was like that of any other man". (Philippians 2:5-7)</p><p><b>Dig Deeper:</b><a href=https://www.gotquestions.org/transfiguration.html> What was the meaning and importance of the transfiguration?</a></p>`,
+            location: {
+                center: [35.8575, 33.4161],
                 zoom: 15,
                 pitch: 60,
                 bearing: -43.2
