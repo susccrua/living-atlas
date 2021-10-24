@@ -108,6 +108,22 @@
             touch-action: unset;
         }
 
+        #loading {
+            animation-name: spin;
+            animation-duration: 5000ms;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes spin {
+            from {
+                transform:rotate(0deg);
+            }
+            to {
+                transform:rotate(360deg);
+            }
+        }
+
         </style>
 </head>
 <body>
@@ -336,6 +352,8 @@ fetch('https://raw.githubusercontent.com/susccrua/living-atlas/production/src/co
     .then(config => load(config));
 
 </script>
-
+    <div id="loading">
+        : )
+    </div>
 </body>
 </html>
