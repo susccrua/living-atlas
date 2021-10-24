@@ -5,6 +5,9 @@
     <meta charset='utf-8' />
     <title>Living Atlas</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap" rel="stylesheet">
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
     <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
@@ -13,7 +16,7 @@
         body {
             margin: 0;
             padding: 0;
-            font-family: sans-serif;
+            font-family: 'Nunito', sans-serif;
         }
 
         a,
@@ -39,9 +42,18 @@
         #header h1,
         #header h2,
         #header p {
+            font-family: 'Nunito', sans-serif;
+            color: #fafafa;
             margin: 0;
             padding: 2vh 2vw;
             text-align: center;
+        }
+
+        #header img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
         }
 
         #footer {
@@ -59,6 +71,10 @@
         #features {
             padding-top: 10vh;
             padding-bottom: 10vh;
+        }
+
+        .h3 {
+            font-family: 'Nunito', sans-serif;
         }
 
         .hidden {
@@ -104,6 +120,14 @@
         .dark {
             color: #fafafa;
             background-color: #444;
+        }
+
+        .headClass {
+            background-color: #81818a88;
+            padding-top: 2vw;
+            padding-left: auto;
+            padding-right: auto;
+            padding-bottom: 2vw;
         }
 
         .step {
@@ -199,6 +223,12 @@
             titleText.innerText = config.title;
             header.appendChild(titleText);
         }
+        if (config.titleImage) {
+            header.classList.add('headClass');
+            var image = document.createElement('img');
+            image.src = config.titleImage;
+            header.appendChild(image);
+        }
 
         if (config.subtitle) {
             var subtitleText = document.createElement('h2');
@@ -213,7 +243,7 @@
         }
 
         if (header.innerText.length > 0) {
-            header.classList.add(config.theme);
+            header.classList.add('headClass');
             header.setAttribute('id', 'header');
             story.appendChild(header);
         }
