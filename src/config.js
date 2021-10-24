@@ -87,9 +87,9 @@ var config = {
             description: `Just like all Jewish families Jesus and his parents went to Jerusalem to take part of the Passover Feast. The passover is an event that happened when the Jews were slaves in Egypt and the final miracle performed by God. On the way back, Joseph and Mary left Jesus in Jerusalem without knowing. In shock, they turned back and spent three days looking for Jesus. On the third day they found Jesus teaching in the temple and they were in distraught. People listening to Jesus were astonished about what this 12 year old understood and his answers. Jesus' parents questioned why he was at the temple. Jesus respond sincerly and amazed, "Why were you looking for me? Did you now know that I must be in my Father's house?" But he was obedient to His parents and went with them back to Nazareth`,
             location: {
                 center: [35.2167, 31.7833],
-                zoom: 15,
-                pitch: 60,
-                bearing: -43.2
+                zoom: 30,
+                pitch: 100,
+                bearing: 20
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
@@ -213,12 +213,12 @@ var config = {
         },
         {
 
-            id: '37',
+            id: '11',
             alignment: 'left',
             hidden: false,
-            title: 'Jesus appears to Paul',
-            image: './path/to/image/source.png',
-            description: `Just like all Jewish families Jesus and his parents went to Jerusalem to take part of the Passover Feast. The passover is an event that happened when the Jews were slaves in Egypt and the final miracle performed by God. On the way back, Joseph and Mary left Jesus in Jerusalem without knowing. In shock, they turned back and spent three days looking for Jesus. On the third day they found Jesus teaching in the temple and they were in distraught. People listening to Jesus were astonished about what this 12 year old understood and his answers. Jesus' parents questioned why he was at the temple. Jesus respond sincerly and amazed, "Why were you looking for me? Did you now know that I must be in my Father's house?" But he was obedient to His parents and went with them back to Nazareth`,
+            title: 'Chooses the Four Disciples',
+            //image: './path/to/image/source.png',
+            description: `<p>One day, Jesus was preaching on the shore and many people were interested in what He shared clearly about God's Word. Eventually, He was pushed to the edge of the shore and asked Simon Peter, who was cleaning his net, if He could use His boat to sit in it just a little off shore. Peter agreed. After Jesus was done sharing Jesus asked Peter to out deeper and drop your nets to catch some fist. Peter was tired and said they were fishing all night and they didn't catch anything! Peter agreed to try it anyways. Oh boy, was Peter surpised when he did that! The net had some many fish it started to tear and the boat started to sink with all that weight! Peter called over for help from the other fishermen, Andrew and the sons of Zebedee, James and John. After Peter had time to think he realized what happened and knew that Jesus was the Lord and told Jesus to leave him because he knew how sinful he was. Jesus didn't let Peter to tremble in fear by reassuring him to not be afraid. Jesus then called the 4 men to follow Him since they will now be fishermen of people.</p><p><b>Dig Deeper:</b><a href=https://www.gotquestions.org/order-calling-Jesus-disciples.html> Order of Jesus calling His disciples</a></p>`,
             location: {
                 center: [35.2167, 31.7833],
                 zoom: 15,
