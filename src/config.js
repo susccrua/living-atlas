@@ -15,8 +15,8 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Birth',
-            image: './path/to/image/source.png',
-            description: 'Jesus was born around 4 BC after Mary was told that she was to give birth by the Angel Gaberial. Mary was engaged to Joseph who is from the family of Judah and David. Mary then became pregnant by the Holy Spirit though this not the same as mythological gods impregnanting humans. This was required as it seems that the sinful nature was passed down through the father. This allowed Jesus to be fully human but not born into sin.* ',
+            image: './images/nativity.jpeg',
+            description: '<p>Jesus was born around 4 BC after Mary was told that she was to give birth by the Angel Gabriel. (Luke 1:26-28, Matthew 1:18-25) Mary was engaged to Joseph who is from the family of Judah and David. Mary then became pregnant by the Holy Spirit though this not the same as mythological gods impregnanting humans. This was required as it seems that the sinful nature was passed down through the father. This allowed Jesus to be fully human but not born into sin.* </p> <p><b>Dig deeper:</b><a href="https://www.gotquestions.org/virgin-birth.html">Why is the Virgin Birth so important?</a></p>',
             location: {
                 center: [35.1956, 31.7031],
                 zoom: 8.5,
