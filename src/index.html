@@ -168,6 +168,8 @@ function setLayerOpacity(layer) {
 }
 
 function load(config) {
+    document.getElementById('loading').remove();
+
     var story = document.getElementById('story');
     var features = document.createElement('div');
     features.setAttribute('id', 'features');
