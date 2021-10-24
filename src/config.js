@@ -118,7 +118,7 @@ var config = {
         },
         {
             id: '6',
-            alignment: 'right',
+            alignment: 'right-youtube',
             hidden: false,
             title: 'Baptism',
             // image: './path/to/image/source.png',
@@ -137,7 +137,7 @@ var config = {
         },
         {
             id: '7',
-            alignment: 'left',
+            alignment: 'left-youtube',
             hidden: false,
             title: 'Temptation',
             // image: './path/to/image/source.png',
@@ -156,7 +156,7 @@ var config = {
         },
         {
             id: '8',
-            alignment: 'right',
+            alignment: 'right-youtube',
             hidden: false,
             title: 'First Miracle: Water to Wine',
             // image: './path/to/image/source.png',
@@ -175,7 +175,7 @@ var config = {
         },
         {
             id: '9',
-            alignment: 'left',
+            alignment: 'left-youtube',
             hidden: false,
             title: 'Cleansing of the temple',
             // image: './path/to/image/source.png',
@@ -194,7 +194,7 @@ var config = {
         },
         {
             id: '10',
-            alignment: 'right',
+            alignment: 'right-youtube',
             hidden: false,
             title: 'Visit from Nicodemus',
             // image: './path/to/image/source.png',
@@ -230,6 +230,123 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
+        },
+        {
+
+            id: '12',
+            alignment: 'right-youtube',
+            hidden: false,
+            title: 'Sermon on the Mount',
+            //image: './path/to/image/source.png',
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/-3nN9-C1yKU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>Shortly after Jesus' ministry started this first sermon Jesus shares with His disciples and those following Him. This sermon covered many topics from how to treat one another to how to dedicate your life to God. Living free from hypocrisy but full of love, grace, wisdom and discernment. Recorded on Matthew 5:1-7:28</p><p><b>Dig Deeper:</b><a href=https://www.gotquestions.org/sermon-on-the-mount.html> More on the Sermon of the Mount</a></p>`,
+            location: {
+                center: [35.575, 32.8811],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+
+            id: '13',
+            alignment: 'left',
+            hidden: false,
+            title: 'Jesus Calls Levi AKA Matthew',
+            //image: './path/to/image/source.png',
+            description: `<p>Throughout Jesus' mininistry people would follow him and hear him speak. However, Jesus explictly called for Matthew to follow Him. Even though Matthew was despised among Jews for betraying them by working for the Romans, collecting taxes. People questioned Jesus for hanging out with people like Matthew but Jesus said He came for the sinners, not for people who think they are right with God. As Jesus said it's impossible to save a person who doesn't believe they need to be saved. (Matthew 5:3; Matthew 9:9-13; Matthew 11:28)</p><p><b>Dig Deeper:</b><a href=https://www.gotquestions.org/Matthew-in-the-Bible.html> More about Matthew</a></p>`,
+            location: {
+                center: [35.575, 32.8811],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '14',
+            alignment: 'right-youtube',
+            hidden: false,
+            title: "Jesus' Sermon from the Boat",
+            //image: './path/to/image/source.png',
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/hj0cVBYKaEg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>After a tiring day Jesus said to His disciples let's cross to the other said so in that and other boats to went out to sea. This sea is prone to storms because of the Mediterranean winds and the semi-tropical conditions on this sea below sea level with tall hills and mountains around it. So a storm came upon the disciples while Jesus was sound asleep. However, the boats started to fill up. The disciples were filled with fear questioning Jesus if he even cares about them as they believe they were able to die! Jesus woke up and commanded for the wind and sea, \"Peace! Be still!\" Everything was suddently calm, both wind and waves. Jesus then asked where was their faith. However, the disciples were confused but afraid of Jesus' powers since even the wind and the sea obey Him. (Mark 4:35-41)</p><p><b>Dig Deeper:</b><a href=https://www.gotquestions.org/Sea-of-Galilee.html> More about the Sea of Galilee</a></p>`,
+            location: {
+                center: [35.575, 32.8811],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '15',
+            alignment: 'right-youtube',
+            hidden: false,
+            title: "Jesus heals Jairus' Daughter",
+            //image: './path/to/image/source.png',
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/MGJ0TKRTEFI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>Healings were one of the many things Jesus did on earth. So once the disciples and Jesus cross the sea of Galilee He was met with another crowd. Then one of the rulers of the synagogue in Capernuam arrived to the crowd he went down to Jesus' feet, humbling himself before Jesus. Jairus pleads that Jesus heals his dying daughter. In faith he asks Jesus to place his hand on her so that she will live. Jesus agreed to this. On His way to the daughte Jairus wasn't the only one with great faith. A women who tried everything to stop her constant bleeding saw Jesus and knew if she could just touch His robe she would be healed. She touch Jesus' robe, Jesus felt healing power went out of Him and looked until he saw this trembling but faithful woman who was now healed. During that time messengers told Jairus that his daughter is dead. Jesus went anyways bringing the first four disciples with Him. Jesus then held the girl's hand and told her to get up and she did! Jesus then told them to not tell anyone of what happened and to give the girl something to eat. (Mark 5:21-43)</p><p><b>Dig Deeper:</b><a href=https://www.gotquestions.org/talitha-cumi.html> About Talitha Cumi</a></p>`,
+            location: {
+                center: [35.575, 32.8811],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '15',
+            alignment: 'right',
+            hidden: false,
+            title: "",
+            //image: './path/to/image/source.png',
+            description: `<p></p><p><b>Dig Deeper:</b><a href=> </a></p>`,
+            location: {
+                center: [],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '15',
+            alignment: 'right',
+            hidden: false,
+            title: "",
+            //image: './path/to/image/source.png',
+            description: `<p></p><p><b>Dig Deeper:</b><a href=> </a></p>`,
+            location: {
+                center: [],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
         }
+
     ]
 };
