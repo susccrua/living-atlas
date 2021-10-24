@@ -403,7 +403,310 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
-        }
-
+        },
+        {
+            id: '21',
+            alignment: 'left',
+            hidden: false,
+            title: 'Jesus Foretells His Death for the second time',
+            // image: './path/to/image/source.png',
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/M_vVCibGHl4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> In God's upside kingdom to be "first", you need to be last, that means you need to be humble like a servant. Jesus reminds his disciples that he is going to exemplify this by predicting, again, that he will be killed and will rise again after three days. (Mark 9: 30-37)`,
+            location: {
+                center: [35.5750, 32.8811],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '22',
+            alignment: 'right',
+            hidden: false,
+            title: 'Jesus teaches his disciples how to pray',
+            // image: './path/to/image/source.png',
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/qNTBQ-hHrYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> Prayer is how we talk to God. It does not have to be long and we don't need to use any fancy words or mantras. Jesus helps his disciples break away from their notions of prayer and gives a simple prayers that we can use when we want to talk to God.  (Mathew 6:5-14)`,
+            location: {
+                center: [35.2644, 31.7700],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '23',
+            alignment: 'left',
+            hidden: false,
+            title: 'Lazarus raised from the dead',
+            // image: './path/to/image/source.png',
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/qZbP38Jxzn8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> Jesus knew that his friend, Lazarus was sick but He only arrived in town four days after Lazarus died. Jesus wept along with Lazarus' family even though he knew that this was not the end of Lazarus's story. (John 11:38-44 )`,
+            location: {
+                center: [35.2644, 31.7700],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '24',
+            alignment: 'right',
+            hidden: false,
+            title: 'The Last Supper',
+            // image: './path/to/image/source.png',
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/vBOR4XMDFZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> The Passover festival was an important jewish festival that celebrated the exodus of Isreal from salvery in Egypt. Jesus uses the passover to instiute a new convenat relationship with God, where Jesus' scarifce on our behalf allows us to be freed from the salvery of sin and death.  (Luke 22:17-20)`,
+            location: {
+                center: [35.2293,31.7720],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '25',
+            alignment: 'left',
+            hidden: false,
+            title: 'Jesus prayer in the garden of Gethsemane',
+            // image: './path/to/image/source.png',
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/goR5FO1vge8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> Jesus knew that the time of his crucifixion was near. So he took his disciples to the garden of Gethsemane to pray. We see Jesus wrestling with consquence of bearing the sin of the world. Ultimately, He asks God for his will to be done. It is good to know that Jesus can relate to our own struggles when we find it hard to do God's will in our lives. (Matthew 26:36-46)`,
+            location: {
+                center: [35.2402, 31.7794],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '26',
+            alignment: 'right',
+            hidden: false,
+            title: 'Judas Iscariot Betrays Jesus',
+            // image: './path/to/image/source.png',
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/sz7UICFortc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> Judas Iscariot, one of Jesus' disciples, decides to work with the regilious leaders from some money to hand over Jesus. Judas meets Jesus in the garden with some temple guards and uses a kiss as a sign to identify Jesus for the guards. Jesus knew all along that Judas was going to betary him and went with the gaurds,  even though Jesus' disciplies tried to restort to violence to try to stop them. (Matthew 26: 47-56)`,
+            location: {
+                center: [35.2402, 31.7794],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '27',
+            alignment: 'left',
+            hidden: false,
+            title: 'Jesus on Trial with the high priest',
+            // image: './path/to/image/source.png',
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/zMaHYMs6NB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> Jesus is brought before the jewish leaders and they try their best to accuse Jesus of saying something wrong. Jesus openly admits that he is the Messiah by quoteing a prophecy in the book Daniel 7:13. This was enough for the leaders to sentence him to death but they needed Roman authority to do so. (Matthew 26: 57-67)`,
+            location: {
+                center: [35.2288, 31.7725],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '28',
+            alignment: 'right',
+            hidden: false,
+            title: 'Pontius Pilate Hands Over Jesus',
+            // image: './path/to/image/source.png',
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/rs-nHYYmors" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> Pontius Pilate was the governor of Judea from 26 -36 AD. Jesus was brought to Pilate to be tried and put to death. Even though Pilate did not find Jesus guilty of the accusations brought against him, Pilate caved into the religious leader's demand to crucify Jesus. (Mark 15: 1-15)`,
+            location: {
+                center: [35.2281, 31.7746],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '29',
+            alignment: 'left',
+            hidden: false,
+            title: 'Jesus crucified',
+            // image: './path/to/image/source.png',
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/_unHmAf7INk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> If you've ever seen a cross, this is where it originated! Crosses were used in Roman times as a way to execute criminals, even before Jesus. But Jesus' death on this cross became a turning point in history, and the cross became a symbol of the ultimate sacrifice, dying for others, so that they might live. (Mark 15: 21-39)`,
+            location: {
+                center: [35.2294, 31.7786],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '30',
+            alignment: 'right',
+            hidden: false,
+            title: 'Jesus buried at the tomb of Joseph',
+            // image: './path/to/image/source.png',
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/5CVx4Tif7Ws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> Joseph of Arimathea asked Pilate if he could take down Jesus' body before the sabbath to bury him. Aftter getting permission Jesus was laid in a tomb that was cut out a rock and (John 19:31-42)`,
+            location: {
+                center: [35.2297, 31.7783],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '31',
+            alignment: 'left',
+            hidden: false,
+            title: 'Jesus appears to Mary',
+            // image: './path/to/image/source.png',
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/Vb24Lk1Oh5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> Early Sunday morning, a woman named Mary Magdalene went to Jesus' tomb to care for his body. But when she got there, the tomb was empty and Jesus' body was gone! She was dumbfounded, and unsure what to do. She wandered through the garden cemetery wandering what to do next, feeling confused. Then a man who she thought was the gardener came up to her. But he knew her name. "Mary," he said. And instantly, she knew it was Jesus. Somehow! Not that she was any less confused, but somehow, the impossible was true. Jesus has come back from the dead! Jesus then told Mary to go tell his disciples. So she left the garden, and began spreading the news. (Mark 16:2-14)`,
+            location: {
+                center: [35.2297, 31.7783],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '32',
+            alignment: 'right',
+            hidden: false,
+            title: 'Jesus appears on the road to Emmaus',
+            // image: './path/to/image/source.png',
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/8YlzWPPiH4A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> The news of Jesus' resurrection was slowly beginning to spread. After all, how could you keep something like that quiet? On Sunday night, two of Jesus' followers were walking home from Jerusalem to a neighboring village, west of the city. They encountered a stranger on their route, and fell into conversation with him. He seemed not to know about the news, but he did seem to know about the prophecies of the Jewish scriptures. They invited him to their home for dinner that evening. When they sat down, he prayed over the food, and suddenly they realized who he was. They could hardly believe it. And then, just as suddenly, he disappeared! With hardly a moment to spare, they put their sandals back on and ran back to Jerusalem to tell the others! (Luke 24:13-35)`,
+            location: {
+                center: [34.9894, 31.8394],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '33',
+            alignment: 'left',
+            hidden: false,
+            title: 'Jesus Appears on the Beach to the Disciples',
+            // image: './path/to/image/source.png',
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/kP3753Pc8-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> Jesus was still revealling Himself to others as the news of His resurection spread. So along the Sea of Galiee where Peter, Thomas, Nathanael and other disciples went back to their old life of fishing, discouraged and not sure what was next. So Jesus went up to them and asked how their fishing was going, and the the disciples said they have caught nothing. Also, they didn't know it was Jesus. So Jesus once again asked them to cast their fishing net to the right side of the boat just as Jesus asked when He first met Peter. The same thing happened, The disciples once again witnessed an overwhelming amount of fish that overloaded the boat. Peter knew it was Jesus and swam to shore. After that they ate breakfast. (John 21:1-15)`,
+            location: {
+                center: [35.5833,32.8333],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '34',
+            alignment: 'right',
+            hidden: false,
+            title: 'Ascension',
+            // image: './path/to/image/source.png',
+            description: ` <iframe width="560" height="315" src="https://www.youtube.com/embed/RD0LNtc1UE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> This is the great end to Jesus' physical presence on earth. The disciples stil don't fully understand what is next in their journey with Jesus and ask questions of when the Isreal will be restored it Isreal's former glory and sit on the throne to rule from Jersusalem. Jesus then responds that it's not for them to know but to instead trust God's plan. Jesus introduces the Holy Spirit and explains how they will be a witness of Jesus to all people groups and languages once you have the Holy Spirit. As soon as Jesus said that He was lifted up into a cloud where they could no longer see Jesus. As they gazed into the sky, two men in white robes as why they are looking up in the sky? They continue to state that the way Jesus went to Heaven is the same way He will return the same way. They were referring to the day of Judgement. (Acts 1:6-11)`,
+            location: {
+                center: [35.2439, 31.7783],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '35',
+            alignment: 'left',
+            hidden: false,
+            title: 'The Disciples Receiving the Holy Spirit',
+            // image: './path/to/image/source.png',
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/JQhkWmFJKnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> Even though Jesus was physically gone His presence in the form of the Holy Spirit has not yet come. On the day of Pentecost suddenly a rushing wind filled the home where the disciples where sitting and it seemed to have fire rest on each one of them. The Holy Spirit was now in the disciples and they were able to speak different languages. Since many devote Jews came to Jerusalem on the day of Pentacost many grew up speaking their mother tongue/language. They heard the disciples and heard these Galilean men speaking different langauges. Languages they understood! Some mocked them thinking they were drinking wine. However, Peter corrected them since it's only early in the morning. Why would they be drinking already? Peter continue to preach and be a witness to others that day. (Acts 2:1-41)`,
+            location: {
+                center: [35.2293, 31.7720],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: '36',
+            alignment: 'right',
+            hidden: false,
+            title: 'Jesus appears to Paul',
+            // image: './path/to/image/source.png',
+            description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/oiVAbkINtRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> Jesus physical presence may have been gone and His Holy Spirit came upon the disciples but one more appreance or more of a blinding had to be done. Saul was a proud Jew who fought for the right thing and he was turning and killing in Christ followers, also known as who belong to The Way. So Saul with his men were on theres way to Damascus. Suddently a bright light from the sky and Heaven shined around Saul. However, the men with him hear a voice but could not see anyone. Then the voice of Jesus ask him, "why are you persecuting me?" referring to Jesus' disciples, the Body of Christ, the Church. After the voice and bright light was gone Saul was unable to see so his men led him to Damascus. He could not see for three days, he did not eat or drink. Saul regained his sight once he arrived in Damascus and the disciple named Anaias put his hand on Saul saying that Jesus sent him to so you can see again and be filled with the Holy Spirit. Saul was then baptized and ate food. Saul eventually was renamed to Paul. (Acts 9:1)`,
+            location: {
+                center: [33.1476, 35.7578],
+                zoom: 15,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
     ]
 };
