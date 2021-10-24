@@ -45,7 +45,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: 'Wiseman Visit',
-            image: './path/to/image/source.png',
+            image: './images/magi.jpg',
             description: 'Magi are wise men who travelled to Bethlem from the East. They likely arrived when Jesus was 2 years old. They were also likely from Persia, which is modern day Iran. They likely knew about this star to come because of the prophet Daniel in Daniel 9:24-27. There was also the prophecy of Balaam in Numbers 24:17 that mentions a star coming out of Jacob, also known as Isreal. Also, nothing stats that there were three wisemen but just three gifts.',
             location: {
                 center: [35.1956, 31.7031],
@@ -200,7 +200,7 @@ var config = {
             image: './path/to/image/source.png',
             description: `In Jesus' day, religious leaders were among the most educated men (and they were almost all men!) of their day. Jesus was a controversial figure in their circles, so they often sparred with him in public, to try and get the best of him. But an expert named Nicodemus came late one night to have a real conversation with Jesus, out of the public eye. He wasn't doing it to be an "influencer," but out of true curiosity. He asked honest questions. At one point, Jesus seemed surprised, "You're an expert!" he exclaimed, "and yet you don't understand these things?" It seems Nicodemus's expertise has missed some of the most important things! (John 2:23-3:21)`,
             location: {
-                center: [35.2167, 31.7833],
+                center: [35.2354, 31.7780],
                 zoom: 30,
                 pitch: 60,
                 bearing: -43.2
@@ -211,5 +211,25 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },
+        {
+
+            id: '37',
+            alignment: 'left',
+            hidden: false,
+            title: 'Jesus appears to Paul',
+            image: './path/to/image/source.png',
+            description: `Just like all Jewish families Jesus and his parents went to Jerusalem to take part of the Passover Feast. The passover is an event that happened when the Jews were slaves in Egypt and the final miracle performed by God. On the way back, Joseph and Mary left Jesus in Jerusalem without knowing. In shock, they turned back and spent three days looking for Jesus. On the third day they found Jesus teaching in the temple and they were in distraught. People listening to Jesus were astonished about what this 12 year old understood and his answers. Jesus' parents questioned why he was at the temple. Jesus respond sincerly and amazed, "Why were you looking for me? Did you now know that I must be in my Father's house?" But he was obedient to His parents and went with them back to Nazareth`,
+            location: {
+                center: [35.2167, 31.7833],
+                zoom: 30,
+                pitch: 60,
+                bearing: -43.2
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        }
     ]
 };
