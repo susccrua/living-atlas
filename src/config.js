@@ -640,7 +640,7 @@ var config = {
             // image: './path/to/image/source.png',
             description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/kP3753Pc8-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> Jesus was still revealling Himself to others as the news of His resurection spread. So along the Sea of Galiee where Peter, Thomas, Nathanael and other disciples went back to their old life of fishing, discouraged and not sure what was next. So Jesus went up to them and asked how their fishing was going, and the the disciples said they have caught nothing. Also, they didn't know it was Jesus. So Jesus once again asked them to cast their fishing net to the right side of the boat just as Jesus asked when He first met Peter. The same thing happened, The disciples once again witnessed an overwhelming amount of fish that overloaded the boat. Peter knew it was Jesus and swam to shore. After that they ate breakfast. (John 21:1-15)`,
             location: {
-                center: [35.5833,32.8333],
+                center: [35.5746,32.8802],
                 zoom: 15,
                 pitch: 60,
                 bearing: -43.2
@@ -697,7 +697,7 @@ var config = {
             // image: './path/to/image/source.png',
             description: `<iframe width="560" height="315" src="https://www.youtube.com/embed/oiVAbkINtRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> Jesus physical presence may have been gone and His Holy Spirit came upon the disciples but one more appreance or more of a blinding had to be done. Saul was a proud Jew who fought for the right thing and he was turning and killing in Christ followers, also known as who belong to The Way. So Saul with his men were on theres way to Damascus. Suddently a bright light from the sky and Heaven shined around Saul. However, the men with him hear a voice but could not see anyone. Then the voice of Jesus ask him, "why are you persecuting me?" referring to Jesus' disciples, the Body of Christ, the Church. After the voice and bright light was gone Saul was unable to see so his men led him to Damascus. He could not see for three days, he did not eat or drink. Saul regained his sight once he arrived in Damascus and the disciple named Anaias put his hand on Saul saying that Jesus sent him to so you can see again and be filled with the Holy Spirit. Saul was then baptized and ate food. Saul eventually was renamed to Paul. (Acts 9:1)`,
             location: {
-                center: [33.1476, 35.7578],
+                center: [35.6850, 33.1234],
                 zoom: 15,
                 pitch: 60,
                 bearing: -43.2
