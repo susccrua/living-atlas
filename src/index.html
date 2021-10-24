@@ -347,7 +347,7 @@ function load(config) {
     window.addEventListener('resize', scroller.resize);
 }
 
-fetch('https://raw.githubusercontent.com/susccrua/living-atlas/production/src/config.json')
+fetch('https://raw.githubusercontent.com/smaclell/living-atlas/it-is-not-so-bad/src/config.json')
     .then(r => r.json())
     .then(config => load(config));
 
